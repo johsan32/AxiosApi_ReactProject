@@ -1,0 +1,62 @@
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 30px;
+}
+.looding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.baslik{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.card-user{
+    display: flex;
+    width: 380px;
+    height: 200px;
+    margin: 15px 10px;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    box-shadow: 2px 2px 5px blue;
+}
+.user-image{
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.user-image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid red;
+    color: red;
+}
+.user-image p{
+    margin-top: 15px;
+}
+.user-title{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    margin: 0;
+}
+.user-title  p, a{
+    margin: 0 0 0 10px;
+  
+}
+.user-title  span, a{
+    color: blue;
+}

@@ -1,0 +1,61 @@
+.todos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.looding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.baslik{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.card-todos{
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px;
+    width: 500px; 
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+}
+.todos-index{
+    width: 25px;
+}
+.index{
+    background-color: #FA8BFF;
+    padding: 0 5px;
+    margin-left: 5px;
+    align-self: center;
+    text-align: center;
+    border-radius: 8px;
+}
+.todos-title{
+    margin: 10px 0 10px 15px;
+    text-align: start;
+    width: 100%;
+}
+.todos-title span:nth-child(1){
+    text-align: justify;
+    color: aliceblue;
+}
+.todos-title span:nth-child(2){
+    font-size: large;
+}
+.completed {
+    color: green;
+}
+.not-completed {
+    color: red;
+}
